@@ -1,11 +1,5 @@
-# Demo
+# Demopage
 
-Demo to learn Git.
+This is my Demo site. Nothing special, just for training purposes.
 
-## Subheader
-
-Next Demo line.
-
-## Next Subheader
-
-Bliblablub
+But let's see what where it goes.
