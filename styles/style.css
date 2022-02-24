@@ -1,10 +1,10 @@
-html{
+html {
   font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f9f9f9ff;
 }
 
-body{
+body {
   width: 80%;
   margin: 0 auto;
   background-color: #f9f9f9ff;
@@ -12,7 +12,7 @@ body{
   border: none;
 }
 
-h1{
+h1 {
   margin: 0px;
   padding: 20px 0px;
   color: #6c757d;
@@ -21,15 +21,16 @@ h1{
   text-shadow: 2px 2px 5px #6c757d;
 }
 
-p, li, a{
+p,
+li,
+pre,
+a {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
 }
 
-
-img{
+img {
   display: block;
   margin: 0 auto;
 }
-
