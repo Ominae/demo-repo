@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@0,400&display=swap" rel="stylesheet">
-  </head>
+      </head>
   <body>
-    <h1>First testing sample</h1>
-
+    <h1 id="t1">First testing sample</h1>
+    <ul>
+      <li><a href="#p2">Go to Part 1</a></li>
+      <li><a href="#l1">Go to Link 1</li>
+    </ul>
     <p>This is a <strong>coding-test</strong> page</p>
-    <img src="/demo-repo/images/coding.jpg" alt="An image displaying code" height="400git statu" width="600" title="Changing content">
+    <img src="/demo-repo/images/coding.jpg" alt="An image displaying code" style="height: 400px; width: 600px;" title="Changing content">
     <p>Here I am going to test my coding</p>
     <br>
     <p>Some other <br> meaningless contet</p>
@@ -25,19 +28,26 @@
     </ul>
     <hr>
     <!---Do not forget about the comments!-->
-    <h2 style="font-size: 30px; color: whitesmoke;background-color: black; text-align: center;">Eine einfache Zwischenüberschrift</h2>
+    <h2 id="p2">Eine einfache Zwischenüberschrift</h2>
     <ol>
-      <li style="border: 2px solid blue;">1bla</li>
-      <li style="border: 2px solid green;">3bla</li>
-      <li style="border: 2px solid orange;">2bla</li>
+      <li>1bla</li>
+      <li>3bla</li>
+      <li>2bla</li>
     </ol>
     <pre>
       Wie sieht dieser Text wohl aus?
 
       Muss man unbedingt mal gesehen haben!
     </pre>
-    <a href="http://sd-mh.de/">Link to SD Management Holding Page</a>
+    <a href="http://sd-mh.de/index.html" target="_blank" title="Go to SD Management Holding" id="l1">Link to SD Management Holding Page</a>
     <button>Change user</button>
+    <p><a href="#t1"><img src="/demo-repo/images/up.svg" alt="Go to Top" style="height: 35px; float: left; margin-right: 10px;">Go to top</a></p>
     <script src="scripts/main.js"></script>
+    <p><img src="/demo-repo/images/coffe-phone.jpg" alt="Table with phone and coffee" style="width: 600px;" usemap="#workmap"></p>
+
+    <map name="workmap">
+      <area shape="circle" coords="315, 230, 40" href="https://www.gmx.de" alt="Phone-Link to GMX" target="_blank">
+      <area shape="rect" coords="440, 140, 550, 250" href="https://www.google.de" alt="Coffee-Link to Google" target="_blank">
+    </map>
   </body>
 </html>

@@ -6,6 +6,8 @@ myImage.onclick = function() {
     myImage.setAttribute('src','images/coffee.jpg');
   } else {
     myImage.setAttribute('src','images/coding.jpg');
+  } else {
+    alert("You clicked phone");
   }
 }
 

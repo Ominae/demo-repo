@@ -21,6 +21,11 @@ h1 {
   text-shadow: 2px 2px 5px #6c757d;
 }
 
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
 p,
 li,
 pre,
@@ -28,6 +33,18 @@ a {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
+}
+
+a:link,
+a:visited {
+  color: #f86624ff;
+  text-decoration: none;
+}
+
+a:hover,
+a:visited {
+  color: #1f0812ff;
+  text-decoration: none;
 }
 
 img {
