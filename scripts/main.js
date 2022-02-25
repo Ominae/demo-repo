@@ -1,18 +1,17 @@
-let myImage = document.querySelector('img');
+let myImage = document.querySelector('#pic1');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/coding.jpg') {
-    myImage.setAttribute('src','images/coffee.jpg');
+  if(mySrc === '/demo-repo/images/coding.jpg') {
+    myImage.setAttribute('src','/demo-repo/images/coffee.jpg');
   } else {
-    myImage.setAttribute('src','images/coding.jpg');
-  } else {
-    alert("You clicked phone");
-  }
+    myImage.setAttribute('src','/demo-repo/images/coding.jpg');
+}
 }
 
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+
+let myHeading = document.querySelector('#t1');
 
 function setUserName() {
   let myName = prompt('Please enter your name.');
@@ -34,4 +33,3 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
-
