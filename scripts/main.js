@@ -9,7 +9,7 @@ myImage.onclick = function() {
 }
 }
 
-let myButton = document.querySelector('button');
+let myButton = document.querySelector('#b1');
 
 let myHeading = document.querySelector('#t1');
 
@@ -32,4 +32,10 @@ if(!localStorage.getItem('name')) {
 
 myButton.onclick = function() {
   setUserName();
+}
+
+let testButton = document.querySelector('#TB')
+
+testButton.onclick = function() {
+  document.getElementById('TID').style.backgroundColor = "yellow";
 }
